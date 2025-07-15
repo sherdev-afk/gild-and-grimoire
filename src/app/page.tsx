@@ -7,7 +7,7 @@ export default function HomePage() {
     <main className="relative overflow-hidden">
       {/* Hero Scroll Section */}
       <Parallax speed={-10}>
-        <section className="h-screen bg-[url('/bg/parchment-scroll.jpg')] bg-cover bg-center flex flex-col items-center justify-center text-center text-amber-100 px-6">
+        <section className="h-screen bg-[url('/bg/background.png')] bg-cover bg-center flex flex-col items-center justify-center text-center text-amber-100 px-6">
           <h1 className="text-6xl md:text-7xl font-serif drop-shadow-xl mb-6">📜 Gild & Grimoire</h1>
           <p className="text-lg max-w-2xl">Where creators forge relics and guilds shape the realm. Welcome, adventurer — your legend begins here.</p>
           <button className="mt-8 bg-amber-700 hover:bg-amber-800 transition-all duration-300 text-white font-semibold py-3 px-6 rounded shadow-lg">
